@@ -1,0 +1,393 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Integrator/1.0.0": {
+        "dependencies": {
+          "CenterSpace.NMath": "6.2.0.40",
+          "CenterSpace.NMath.Standard.Windows.X64": "7.3.0.5"
+        },
+        "runtime": {
+          "Integrator.dll": {}
+        }
+      },
+      "CenterSpace.NMath/6.2.0.40": {
+        "dependencies": {
+          "Microsoft.Solver.Foundation": "3.1.0"
+        }
+      },
+      "CenterSpace.NMath.Standard.Windows.X64/7.3.0.5": {
+        "dependencies": {
+          "Google.OrTools": "9.0.9048",
+          "System.Configuration.ConfigurationManager": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Solver.Foundation.dll": {
+            "assemblyVersion": "3.0.2.10889",
+            "fileVersion": "3.0.2.10889"
+          },
+          "lib/netstandard2.0/NMath.dll": {
+            "assemblyVersion": "7.3.0.5",
+            "fileVersion": "7.3.0.5"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win-x64/lib/netstandard2.0/Microsoft.Solver.Foundation.dll": {
+            "rid": "win-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "3.0.2.10889",
+            "fileVersion": "3.0.2.10889"
+          },
+          "runtimes/win-x64/lib/netstandard2.0/NMath.dll": {
+            "rid": "win-x64",
+            "assetType": "runtime",
+            "assemblyVersion": "7.3.0.5",
+            "fileVersion": "7.3.0.5"
+          },
+          "runtimes/win-x64/native/libarpack.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/libiomp5md.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "5.0.2020.1007"
+          },
+          "runtimes/win-x64/native/nmath_native_x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/nmath_sf_x64.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Google.OrTools/9.0.9048": {
+        "dependencies": {
+          "Google.OrTools.runtime.linux-x64": "9.0.9048",
+          "Google.OrTools.runtime.osx-x64": "9.0.9048",
+          "Google.OrTools.runtime.win-x64": "9.0.9048",
+          "Google.Protobuf": "3.15.8"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Google.OrTools.dll": {
+            "assemblyVersion": "9.0.9048.0",
+            "fileVersion": "9.0.9048.0"
+          }
+        }
+      },
+      "Google.OrTools.runtime.linux-x64/9.0.9048": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/google-ortools-native.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux-x64/native/libortools.so": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Google.OrTools.runtime.osx-x64/9.0.9048": {
+        "runtimeTargets": {
+          "runtimes/osx-x64/native/google-ortools-native.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/libortools.dylib": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Google.OrTools.runtime.win-x64/9.0.9048": {
+        "runtimeTargets": {
+          "runtimes/win-x64/native/google-ortools-native.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Google.Protobuf/3.15.8": {
+        "dependencies": {
+          "System.Memory": "4.5.3",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.15.8.0",
+            "fileVersion": "3.15.8.0"
+          }
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.0.0": {},
+      "Microsoft.Solver.Foundation/3.1.0": {},
+      "Microsoft.Win32.SystemEvents/4.6.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.6.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.6.0",
+          "System.Security.Permissions": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "System.Drawing.Common/4.6.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "Microsoft.Win32.SystemEvents": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.700.19.46214"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "System.Memory/4.5.3": {},
+      "System.Runtime.CompilerServices.Unsafe/4.5.2": {},
+      "System.Security.AccessControl/4.6.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "System.Security.Permissions/4.6.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.6.0",
+          "System.Windows.Extensions": "4.6.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.6.0": {},
+      "System.Windows.Extensions/4.6.0": {
+        "dependencies": {
+          "System.Drawing.Common": "4.6.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Integrator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CenterSpace.NMath/6.2.0.40": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZHK21ZxAePOkzcx0dWTLq/zN8mUYDUHHe1ggNZM8DbsbWrAdkQ44gfeTBjLzibOWESbvvnU/w4mQ5QqbAIdIng==",
+      "path": "centerspace.nmath/6.2.0.40",
+      "hashPath": "centerspace.nmath.6.2.0.40.nupkg.sha512"
+    },
+    "CenterSpace.NMath.Standard.Windows.X64/7.3.0.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a+pfCI1majsV/TjzAuC21+B3ft6e6H/+KmWhsCS4ODy4803ilKosv0uVpyehkawkFofGEK3anxJeNp6Gz6e5Nw==",
+      "path": "centerspace.nmath.standard.windows.x64/7.3.0.5",
+      "hashPath": "centerspace.nmath.standard.windows.x64.7.3.0.5.nupkg.sha512"
+    },
+    "Google.OrTools/9.0.9048": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bs/X/FPndLXIseLHazm+upQnY9BupVx5nUyOBVFJU5LihEWWzhX0x3mMUxO2lwr7OUn99YFq1BMFrm3SQ6FiWQ==",
+      "path": "google.ortools/9.0.9048",
+      "hashPath": "google.ortools.9.0.9048.nupkg.sha512"
+    },
+    "Google.OrTools.runtime.linux-x64/9.0.9048": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f7EhJOg0YWuRjUQT2TjZzU5Wuf1igKqIpkdKxfqWiTtB84VR46hX+YTskRP22vxoTI70pzXozJVC/EiSzTz8Xw==",
+      "path": "google.ortools.runtime.linux-x64/9.0.9048",
+      "hashPath": "google.ortools.runtime.linux-x64.9.0.9048.nupkg.sha512"
+    },
+    "Google.OrTools.runtime.osx-x64/9.0.9048": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KLFL4aUzYItxofulS2fehBbk5XvUohPIZ83hVeg/wQa3I398FM/rYr1nSpOWQqFKAF5k/jUuyHe0Nus+mPfgmQ==",
+      "path": "google.ortools.runtime.osx-x64/9.0.9048",
+      "hashPath": "google.ortools.runtime.osx-x64.9.0.9048.nupkg.sha512"
+    },
+    "Google.OrTools.runtime.win-x64/9.0.9048": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-L2agJXe8mqGmUdakOsGXcASgElwOUzokTAaxvOa7E6zbIBDyMnXZgNJ20YmqeGUrAL+BZQ1MmT1yrl8OdPe3PA==",
+      "path": "google.ortools.runtime.win-x64/9.0.9048",
+      "hashPath": "google.ortools.runtime.win-x64.9.0.9048.nupkg.sha512"
+    },
+    "Google.Protobuf/3.15.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tA0S9QXJq+r3CjwBlcn5glEUrbdAxhPWO4yhq5+ycn6WW6+nsvqzO6Qf6NE9XWbEz/F2QSpBTxjdTI7SvVy7CQ==",
+      "path": "google.protobuf/3.15.8",
+      "hashPath": "google.protobuf.3.15.8.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TsETIgVJb/AKoYfSP+iCxkuly5d3inZjTdx/ItZLk2CxY85v8083OBS3uai84kK3/baLnS5/b5XGs6zR7SuuHQ==",
+      "path": "microsoft.netcore.platforms/3.0.0",
+      "hashPath": "microsoft.netcore.platforms.3.0.0.nupkg.sha512"
+    },
+    "Microsoft.Solver.Foundation/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-02dYXlaV3Px4zIX7v+K5e7aPsdUqQm/IQ6ZvmcCBH/+FkSciHAdKQoLqEP1zLyWCWBy1Q90j9uIRzXNDEKe9Gg==",
+      "path": "microsoft.solver.foundation/3.1.0",
+      "hashPath": "microsoft.solver.foundation.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Edg+pFW5C8WJb680Za2kTV8TqUi6Ahl/WldRVoOVJ23UQLpDHFspa+umgFjkWZw24ETsU99Cg+ErZz683M4chg==",
+      "path": "microsoft.win32.systemevents/4.6.0",
+      "hashPath": "microsoft.win32.systemevents.4.6.0.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gkNklXxdmB3r4SQTUzRhESZAb3MotgDz24XYi2R/bIjJ10SF0KHJ/qTEwi9CLyIAOTjmCo8Vx8+rKldLaiW7Ig==",
+      "path": "system.configuration.configurationmanager/4.6.0",
+      "hashPath": "system.configuration.configurationmanager.4.6.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2A3spjjoPZnvpVh/sDTzd+0H8ZqTdr+hH/6obB8MMfG81EJ85PmxCKDBxhBVQiA25PliKAZ1sKogDcq9mSnFEA==",
+      "path": "system.drawing.common/4.6.0",
+      "hashPath": "system.drawing.common.4.6.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+      "path": "system.memory/4.5.3",
+      "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wprSFgext8cwqymChhrBLu62LMg/1u92bU+VOwyfBimSPVFXtsNqEWC92Pf9ofzJFlk4IHmJA75EDJn1b2goAQ==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.2",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gmlk6khICtVhiUnVBBtlsH0H/5QFDqhTZgtpp3AX14wWE6OIE+BX95NLD+X4AolXnIy/oXpNNmXYnsNfW1KuDQ==",
+      "path": "system.security.accesscontrol/4.6.0",
+      "hashPath": "system.security.accesscontrol.4.6.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zdCsTOakmbAQVyOI6+ZadvXZgzSiFiY5nXAfGUQNGrz3ofc9sjehpXRvqYb3vWUsvloYFILSpiQCjiZVFKRBjA==",
+      "path": "system.security.cryptography.protecteddata/4.6.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.6.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W3Uxog9KCZAmGYsOFHgJnb7L2q+SDbxS3vGnFHmErUnXuIjWYpIh1KVTlua7qmPdrlRCkAcTF9dImv+jciBPOQ==",
+      "path": "system.security.permissions/4.6.0",
+      "hashPath": "system.security.permissions.4.6.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mdukseovp0YIGaz16FMH6nbfgZkrCFOJbtXQptv0aeBO9h775Ilb9+TDwLVTKikoW7y7CY7lpoXl9zmZ5G3ndA==",
+      "path": "system.security.principal.windows/4.6.0",
+      "hashPath": "system.security.principal.windows.4.6.0.nupkg.sha512"
+    },
+    "System.Windows.Extensions/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GL4izk0KgeyXklUOHViAk7y1IOYVYcn8nDpJZgcCqNzTGv2xd+8rgGgMKMo8G9nvfEuRCrNxWnGc74EiuYH2YA==",
+      "path": "system.windows.extensions/4.6.0",
+      "hashPath": "system.windows.extensions.4.6.0.nupkg.sha512"
+    }
+  }
+}
